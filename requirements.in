@@ -1,0 +1,12 @@
+pandas
+numpy
+streamlit
+seaborn
+matplotlib
+praw
+black
+flake8
+mypy
+isort
+ipykernel
+python-dotenv
