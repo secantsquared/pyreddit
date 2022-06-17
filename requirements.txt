@@ -6,10 +6,6 @@
 #
 altair==4.2.0
     # via streamlit
-appnope==0.1.2
-    # via
-    #   ipykernel
-    #   ipython
 argon2-cffi==21.3.0
     # via notebook
 argon2-cffi-bindings==21.2.0
@@ -157,7 +153,7 @@ nest-asyncio==1.5.4
     #   jupyter-client
     #   nbclient
     #   notebook
-notebook==6.4.8
+notebook==6.4.12
     # via widgetsnbextension
 numpy==1.22.2
     # via
@@ -320,6 +316,8 @@ update-checker==0.18.0
 urllib3==1.26.8
     # via requests
 validators==0.18.2
+    # via streamlit
+watchdog==2.1.9
     # via streamlit
 wcwidth==0.2.5
     # via prompt-toolkit
