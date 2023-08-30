@@ -6,10 +6,6 @@
 #
 altair==4.2.0
     # via streamlit
-appnope==0.1.2
-    # via
-    #   ipykernel
-    #   ipython
 argon2-cffi==21.3.0
     # via notebook
 argon2-cffi-bindings==21.2.0
@@ -67,7 +63,7 @@ fonttools==4.29.1
     # via matplotlib
 gitdb==4.0.9
     # via gitpython
-gitpython==3.1.27
+gitpython==3.1.32
     # via streamlit
 idna==3.3
     # via requests
@@ -257,7 +253,7 @@ requests==2.27.1
     #   prawcore
     #   streamlit
     #   update-checker
-scipy==1.8.0
+scipy==1.11.2
     # via seaborn
 seaborn==0.11.2
     # via -r requirements.in
@@ -320,6 +316,8 @@ update-checker==0.18.0
 urllib3==1.26.8
     # via requests
 validators==0.18.2
+    # via streamlit
+watchdog==3.0.0
     # via streamlit
 wcwidth==0.2.5
     # via prompt-toolkit
